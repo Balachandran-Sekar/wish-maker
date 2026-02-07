@@ -4,8 +4,8 @@ import { db } from "../firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 
-const USERNAME = "aaa";
-const PASSWORD = "bbb";
+const USERNAME = "Bala";
+const PASSWORD = "Admin@123";
 
 export default function CreateWish() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
